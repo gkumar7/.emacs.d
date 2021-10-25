@@ -12,6 +12,9 @@
 
 (package-initialize)
 
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
 (dolist (package package-list)
   (unless (package-installed-p package)
     (package-install package)))
