@@ -6,8 +6,9 @@
 (require 'init-package)
 (require 'init-basic)
 (require 'init-navigation)
-(require 'init-typescript)
-(require 'init-java)
+(require 'language/init-typescript)
+(require 'language/init-java)
+(require 'language/init-go)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
