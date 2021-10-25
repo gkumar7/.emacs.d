@@ -13,3 +13,5 @@
 
 (with-eval-after-load 'go-mode
    (require 'go-autocomplete))
+
+(provide 'init-go)

@@ -2,13 +2,14 @@
   (error "This requires Emacs 26.1 and above!"))
 
 (add-to-list 'load-path "~/.emacs.d/lisp")
+(add-to-list 'load-path "~/.emacs.d/lisp/language")
 
 (require 'init-package)
 (require 'init-basic)
 (require 'init-navigation)
-(require 'language/init-typescript)
-(require 'language/init-java)
-(require 'language/init-go)
+(require 'init-typescript)
+(require 'init-java)
+(require 'init-go)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
